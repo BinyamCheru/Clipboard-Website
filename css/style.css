@@ -675,6 +675,12 @@ h5 {
   max-width: 28rem;
 }
 
+.scale-50 {
+  --tw-scale-x: .5;
+  --tw-scale-y: .5;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
 .flex-col {
   flex-direction: column;
 }
@@ -707,6 +713,11 @@ h5 {
 
 .rounded-full {
   border-radius: 9999px;
+}
+
+.bg-gray-50 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(249 250 251 / var(--tw-bg-opacity, 1));
 }
 
 .bg-lightBlue {
@@ -781,7 +792,6 @@ h5 {
   margin-right: auto;
   max-width: 48rem;
   text-align: center;
-  font-size: 1.25rem;
   line-height: 2.25rem;
   --tw-text-opacity: 1;
   color: hsl(201 11% 66% / var(--tw-text-opacity, 1));
